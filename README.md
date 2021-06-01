@@ -1,6 +1,6 @@
 # Who am I?
 
-I am an Egyptian engineer working in London who loves architecting and building systems that solves problems.
+I am an Egyptian engineer working in London & loves architecting and building systems that solves problems.
 
 I work as a principal software engineer in a healthtech company, and love topics like:
 
