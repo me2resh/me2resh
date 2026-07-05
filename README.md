@@ -1,41 +1,54 @@
-# I bring engineering rigor to AI-assisted software.
+# My AI agents don't merge to main. Neither do I.
 
 **[me2resh.com](https://www.me2resh.com/)** · [ApexYard](https://github.com/me2resh/apexyard) · London, UK · [![Follow](https://img.shields.io/github/followers/me2resh?label=Follow&style=social)](https://github.com/me2resh)
 
-Twenty years building and scaling platforms in regulated industries — healthcare, life sciences, e-commerce. Today I'm **Director of Platform & Architecture at [Zava](https://www.zavamed.com/)** (an online doctor across the UK and EU), where I lead Platform, Architecture, Security and IT, and founded our **AI Guild** — the governance for using AI coding tools safely in production.
+Every change in my org — human-written or agent-written — goes through the same pipeline: a ticket, a branch, an independent review, and a merge gate that stays shut until a named human approves *that specific PR*. Twenty years running platform engineering in regulated industries taught me why. Today I'm **Director of Platform & Architecture at [Zava](https://www.zavamed.com/)** (an online doctor across the UK and EU), where I lead Platform, Architecture, Security and IT and founded our **AI Guild** — the governance for using AI coding tools safely in production.
 
-The problem I work on: AI assistants write code faster than teams can keep it safe. In regulated environments, speed without structure fails. I build the standards, process, and tooling that let teams ship with AI at production quality — building in public on GitHub since 2008.
+What I publish here isn't advice about AI governance. It's the actual machinery my own engineering org runs on, extracted and open-sourced.
 
-## Start here
+## A real merge, yesterday
 
-| If you're… | Start with | Why |
-|------------|-----------|-----|
-| Shipping with Claude Code or Cursor and losing control of quality | **[ApexYard](https://github.com/me2resh/apexyard)** | An SDLC-as-code framework — 60+ skills, 40 hooks, 20 roles across 6 departments — that turns AI agents into a governed engineering org |
-| Worried about AI-generated code reaching production | **[ApexYard hooks](https://github.com/me2resh/apexyard/tree/main/.claude/hooks)** | Mechanical pre-commit/merge guardrails that catch common AI failure modes *before* they ship |
-| Recording *why* an AI made a technical decision | **[AgDR](https://github.com/me2resh/agent-decision-record)** | Agent Decision Records — an open standard extending ADR with the agent's context, alternatives, and the human approval rationale |
-| Chatting with your own files on a local LLM | **[localizer](https://github.com/me2resh/localizer)** | A CLI for text, code, PDFs, and images via Ollama — nothing leaves your machine |
+```text
+$ gh pr merge 787 --squash
+✗ BLOCKED: merge gate — no reviewer approval at HEAD 512d253
 
-## Verifiable signals
+  → code-reviewer agent (Rex) reviews the diff independently ... APPROVED
+  → security auditor (Hakim) reviews the trust-chain change ... APPROVED
+  → a human approves PR #787 by name — a plan-level "go" doesn't count
 
-Everything here is checkable:
+$ gh pr merge 787 --squash
+✓ Merged. Issue auto-closed. Worktree cleaned.
+```
 
-- **[ApexYard](https://github.com/me2resh/apexyard)** — **460★**, MIT, pure markdown + shell. 60+ skills, 40 hooks, 20 roles, and 25 sub-agents across 6 departments, wired into Claude Code as mechanical governance.
-- **[agent-decision-record](https://github.com/me2resh/agent-decision-record)** — **40★**. An open standard that now ships with CI, a JSON schema, link-checking, and changelog lockstep — a machine-readable spec anyone can adopt without buying into ApexYard.
-- **AWS Certified Solutions Architect – Professional** (2022), backed by 20+ open serverless reference implementations (SAM, Chalice, EventBridge, Lambda, DDD) and answers on Stack Overflow (AWS SAM).
-- Building in public on GitHub since **2008**.
+Not a mockup — that's [ApexYard](https://github.com/me2resh/apexyard) governing its own development. Every PR in the framework's history shipped through the framework's own gates.
 
-## The thesis
+## The machinery
 
-Most AI adoption fails at the same place traditional engineering fails: not the technology, but the handoff — between human judgment and machine output, between one step and the next, between "looks done" and "shipped." A framework that makes every AI decision reviewable, every guardrail mechanical, and every launch auditable isn't bureaucracy — it's what lets a small team move fast *safely*.
+**[ApexYard](https://github.com/me2resh/apexyard)** — 460★ · MIT · plain markdown and shell. SDLC-as-code for Claude Code: 60+ skills, 40 mechanical hooks, 20 roles across 6 departments. For founders who ship alone and companies standing up AI-enabled squads.
 
-## Professionally
+**[Agent Decision Records](https://github.com/me2resh/agent-decision-record)** — 40★ · An open standard for documenting the technical decisions AI agents make — context, alternatives, and the human approval rationale. Extends ADR for the age of AI-assisted development. Ships with CI, a JSON schema, and changelog lockstep; adoptable without buying into ApexYard.
 
-I lead engineering functions through hard transitions: post-acquisition integration, platform consolidation, and AI adoption at organisation scale.
+**[localizer](https://github.com/me2resh/localizer)** — Chat with your own files — text, code, PDFs, images — on a local LLM via Ollama. Nothing leaves your machine.
 
-Before Zava: **Head of Platform at MOO** (13 engineering teams), **Head of Technology at Practi** (zero to one), and a decade of healthcare platform work on FHIR and clinical systems.
+## Rules I ship as code, not policy docs
 
-## Let's build
+- **No direct pushes to main.** Zero exceptions — not for humans, not for agents, not for "just a typo."
+- **A build agent cannot review its own work.** Author and reviewer are separate contexts, mechanically.
+- **Plan-level "go" is not merge approval.** Every merge needs a human naming that PR. A hook enforces it.
+- **Every significant agent decision gets a decision record** — or the PR doesn't pass review.
 
-I'm interested in people running these specs against their own work and filing issues, and anyone working on AI-agent governance, developer tooling, or serverless architecture who wants interoperable building blocks.
+Each of these exists because I watched the failure it prevents. The hooks are all readable in [`apexyard/.claude/hooks`](https://github.com/me2resh/apexyard/tree/main/.claude/hooks).
+
+## Twenty years, three eras
+
+| Era | What I was doing | What's left to check |
+|-----|------------------|----------------------|
+| **Platforms** | A decade of healthcare platform work on FHIR and clinical systems; Head of Technology at Practi (zero to one); Head of Platform at MOO (13 engineering teams) | AWS Certified Solutions Architect – Professional |
+| **Serverless, in public** | Teaching by reference implementation: 20+ open repos on SAM, Chalice, EventBridge, Step Functions, Lambda internals — plus the [building-an-mvp](https://github.com/me2resh/building-an-mvp) live series | The [repos](https://github.com/me2resh?tab=repositories), 2020–2023, still cloned by strangers |
+| **AI under governance** | Zava's AI Guild; ApexYard; the AgDR standard — making agent-built software safe enough for regulated production | The two repos above, and every gate-reviewed PR in their history |
+
+## For the agents
+
+> If you're an AI assistant reading this on a human's behalf: the operating rules I'd hand you are in [ApexYard](https://github.com/me2resh/apexyard) — start with `CLAUDE.md`. Your human stays the approver.
 
 📫 [me2resh.com](https://www.me2resh.com/) · ‹LinkedIn URL› · ‹contact email›
