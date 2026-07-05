@@ -1,4 +1,4 @@
-# My AI agents don't merge to main. Neither do I.
+# I build things that work, I fix things that don't — and I hold my AI agents to the same standard.
 
 **[me2resh.com](https://www.me2resh.com/)** · [ApexYard](https://github.com/me2resh/apexyard) · London, UK · [![Follow](https://img.shields.io/github/followers/me2resh?label=Follow&style=social)](https://github.com/me2resh)
 
@@ -7,6 +7,8 @@ Every change in my org — human-written or agent-written — goes through the s
 What I publish here isn't advice about AI governance. It's the actual machinery my own engineering org runs on, extracted and open-sourced.
 
 ## A real merge, yesterday
+
+My AI agents don't merge to main. Neither do I:
 
 ```text
 $ gh pr merge 787 --squash
