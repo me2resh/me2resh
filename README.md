@@ -1,8 +1,8 @@
-# I build things that work, I fix things that don't, and I hold my AI agents to the same standard.
+# I make AI-built software safe to ship.
 
 **[me2resh.com](https://www.me2resh.com/)** · [ApexYard](https://github.com/me2resh/apexyard) · London, UK · [![Follow](https://img.shields.io/github/followers/me2resh?label=Follow&style=social)](https://github.com/me2resh)
 
-Every change I ship, human-written or agent-written, goes through the same pipeline: a ticket, a branch, an independent review, and a merge gate that stays shut until a named human approves *that specific PR*. Twenty years running platform engineering in regulated industries (healthcare, life sciences, e-commerce) taught me why. Today I'm Director of Platform & Architecture at a regulated digital-health company operating across the UK and EU, where I lead Platform, Architecture, Security and IT.
+Every change I ship, human-written or agent-written, goes through the same pipeline: a ticket, a branch, an independent review, and a merge gate that stays shut until a named human approves *that specific PR*. Twenty years building software in regulated industries (healthcare, life sciences, e-commerce) taught me why. Today I'm Director of Platform & Architecture at a regulated digital-health company operating across the UK and EU, where I lead Platform, Architecture, Security and IT.
 
 What I publish here isn't advice about AI governance. It's the actual machinery I build my own software with, and the same rules I hold my teams to.
 
@@ -57,4 +57,4 @@ Each of these exists because I watched the failure it prevents. The hooks are al
 
 I want to hear from people running ApexYard or AgDR against their own projects and filing issues, and from anyone working on AI-governance standards, agent protocols, or serverless architecture who wants interoperable building blocks. Early adopters and co-designers, not hires.
 
-📫 [me2resh.com](https://www.me2resh.com/)
+📫 [me2resh.com](https://www.me2resh.com/) · [LinkedIn](https://www.linkedin.com/in/aabdelaliem/)
