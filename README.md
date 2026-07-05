@@ -1,6 +1,6 @@
 # I make AI-built software safe to ship.
 
-**[me2resh.com](https://www.me2resh.com/)** · [ApexYard](https://github.com/me2resh/apexyard) · London, UK · [![Follow](https://img.shields.io/github/followers/me2resh?label=Follow&style=social)](https://github.com/me2resh)
+**[me2resh.com](https://www.me2resh.com/)** · [ApexYard](https://github.com/me2resh/apexyard) · [YouTube](https://www.youtube.com/@learnWithMe2resh) · London, UK · [![Follow](https://img.shields.io/github/followers/me2resh?label=Follow&style=social)](https://github.com/me2resh)
 
 Every change I ship, human-written or agent-written, goes through the same pipeline: a ticket, a branch, an independent review, and a merge gate that stays shut until a named human approves *that specific PR*. Twenty years building software in regulated industries (healthcare, life sciences, e-commerce) taught me why. Today I'm Director of Platform & Architecture at a regulated digital-health company operating across the UK and EU, where I lead Platform, Architecture, Security and IT.
 
@@ -48,7 +48,7 @@ Each of these exists because I watched the failure it prevents. The hooks are al
 | Era | What I was doing | What's left to check |
 |-----|------------------|----------------------|
 | **Platforms** | A decade of healthcare platform work on FHIR and clinical systems; Head of Technology at a healthtech startup (zero to one); Head of Platform at an e-commerce company (13 engineering teams) | AWS Certified Solutions Architect – Professional |
-| **Serverless, in public** | Teaching by reference implementation: 20+ open repos on SAM, Chalice, EventBridge, Step Functions, and Lambda internals, plus the [building-an-mvp](https://github.com/me2resh/building-an-mvp) live series | The [repos](https://github.com/me2resh?tab=repositories), 2020–2023, still cloned by strangers |
+| **Serverless, in public** | Teaching by reference implementation: 20+ open repos on SAM, Chalice, EventBridge, Step Functions, and Lambda internals; a [YouTube channel teaching serverless in Arabic](https://www.youtube.com/@learnWithMe2resh); and the [Idea to MVP](https://github.com/me2resh/building-an-mvp) live series, pairing through a full SDLC from idea to working product | The [repos](https://github.com/me2resh?tab=repositories), the [talks and streams](https://www.youtube.com/@learnWithMe2resh), 2020–2023, still cloned and watched by strangers |
 | **AI under governance** | ApexYard and the AgDR standard: making agent-built software safe enough for regulated production | The two repos above, and every gate-reviewed PR in their history |
 
 ## For the agents
