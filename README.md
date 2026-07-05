@@ -47,11 +47,13 @@ Each of these exists because I watched the failure it prevents. The hooks are al
 
 ## Twenty years, three eras
 
-| Era | What I was doing | What's left to check |
-|-----|------------------|----------------------|
-| **Platforms** | Years of healthcare platform work on FHIR and clinical systems; Head of Technology at a healthtech startup (zero to one); Head of Architecture, then Head of Platform, at an e-commerce company (13 engineering teams) | AWS Certified Solutions Architect – Professional; HL7 FHIR Fundamentals |
-| **Serverless, in public** | Teaching by reference implementation: 20+ open repos on SAM, Chalice, EventBridge, Step Functions, and Lambda internals; a [YouTube channel teaching serverless in Arabic](https://www.youtube.com/@learnWithMe2resh); and the [Idea to MVP](https://github.com/me2resh/building-an-mvp) live series, pairing through a full SDLC from idea to working product | The [repos](https://github.com/me2resh?tab=repositories), the [talks and streams](https://www.youtube.com/@learnWithMe2resh), and Stack Overflow answers on AWS SAM, still cloned and watched by strangers |
-| **AI under governance** | ApexYard and the AgDR standard: making agent-built software safe enough for regulated production | The two repos above, and every gate-reviewed PR in their history |
+| Era | What I was doing |
+|-----|------------------|
+| **Platforms** | Healthcare platform work on FHIR and clinical systems; Head of Technology at a healthtech startup (zero to one); Head of Architecture, then Head of Platform, at an e-commerce company (13 engineering teams) |
+| **Serverless, in public** | Teaching by reference implementation: 20+ open repos on SAM, Chalice, EventBridge, Step Functions, and Lambda internals; a [YouTube channel teaching serverless in Arabic](https://www.youtube.com/@learnWithMe2resh); the [Idea to MVP](https://github.com/me2resh/building-an-mvp) live series; and Stack Overflow answers on AWS SAM |
+| **AI under governance** | ApexYard and the AgDR standard: making agent-built software safe enough for regulated production |
+
+**Certifications:** AWS Certified Solutions Architect – Professional · HL7 FHIR Fundamentals
 
 ## For the agents
 
