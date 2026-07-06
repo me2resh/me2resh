@@ -27,11 +27,11 @@ Not a mockup: that's [ApexYard](https://github.com/me2resh/apexyard) governing i
 ## The machinery
 
 **[ApexYard](https://github.com/me2resh/apexyard)**<br>
-[![Stars](https://img.shields.io/github/stars/me2resh/apexyard?style=flat-square&logo=github&label=stars)](https://github.com/me2resh/apexyard/stargazers) [![Forks](https://img.shields.io/github/forks/me2resh/apexyard?style=flat-square&logo=github&label=forks)](https://github.com/me2resh/apexyard/forks)<br>
+[![Stars](https://img.shields.io/github/stars/me2resh/apexyard?style=flat-square&logo=github&label=stars)](https://github.com/me2resh/apexyard) [![Forks](https://img.shields.io/github/forks/me2resh/apexyard?style=flat-square&logo=github&label=forks)](https://github.com/me2resh/apexyard)<br>
 MIT, plain markdown and shell. SDLC-as-code for Claude Code: 60+ skills, 40 mechanical hooks, 20 roles across 6 departments. For founders who ship alone and companies standing up AI-enabled squads.
 
 **[Agent Decision Records](https://github.com/me2resh/agent-decision-record)**<br>
-[![Stars](https://img.shields.io/github/stars/me2resh/agent-decision-record?style=flat-square&logo=github&label=stars)](https://github.com/me2resh/agent-decision-record/stargazers) [![Forks](https://img.shields.io/github/forks/me2resh/agent-decision-record?style=flat-square&logo=github&label=forks)](https://github.com/me2resh/agent-decision-record/forks)<br>
+[![Stars](https://img.shields.io/github/stars/me2resh/agent-decision-record?style=flat-square&logo=github&label=stars)](https://github.com/me2resh/agent-decision-record) [![Forks](https://img.shields.io/github/forks/me2resh/agent-decision-record?style=flat-square&logo=github&label=forks)](https://github.com/me2resh/agent-decision-record)<br>
 An open standard for documenting the technical decisions AI agents make: context, alternatives, and the human approval rationale. Extends ADR for the age of AI-assisted development. Ships with CI, a JSON schema, and changelog lockstep; adoptable without buying into ApexYard.
 
 **[localizer](https://github.com/me2resh/localizer)**. Chat with your own files (text, code, PDFs, images) on a local LLM via Ollama. Nothing leaves your machine.
