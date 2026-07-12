@@ -36,6 +36,8 @@ An open standard for documenting the technical decisions AI agents make: context
 
 **[localizer](https://github.com/me2resh/localizer)**. Chat with your own files (text, code, PDFs, images) on a local LLM via Ollama. Nothing leaves your machine.
 
+Adopting ApexYard takes minutes, not a migration: fork the repo, run `/setup`, and watch the first gate fire. Full walkthrough in [`docs/getting-started.md`](https://github.com/me2resh/apexyard/blob/main/docs/getting-started.md).
+
 ## Rules I ship as code, not policy docs
 
 - **No direct pushes to main.** Zero exceptions: not for humans, not for agents, not for "just a typo."
@@ -62,5 +64,7 @@ Each of these exists because I watched the failure it prevents. The hooks are al
 ## Collaborating
 
 I want to hear from people running ApexYard or AgDR against their own projects and filing issues, and from anyone working on AI-governance standards, agent protocols, or serverless architecture who wants interoperable building blocks. Early adopters and co-designers, not hires.
+
+Start by opening an issue on [ApexYard](https://github.com/me2resh/apexyard) — I read all of them — or find me at [me2resh.com](https://www.me2resh.com/).
 
 📫 [me2resh.com](https://www.me2resh.com/) · [LinkedIn](https://www.linkedin.com/in/aabdelaliem/)
